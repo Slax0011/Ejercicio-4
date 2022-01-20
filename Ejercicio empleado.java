@@ -17,7 +17,21 @@ public class Empleado {
 
 /////////  PRUEBAS DEL PROGRAMA ////////////
 
+    public boolean Pregunta_Edad(int n1) {
 
+        boolean comprobarEdad = true;
+
+        if (n1 < 18) {
+            comprobarEdad = false;
+            System.out.println("Edad erronea");
+        } else {
+            comprobarEdad = true;
+            System.out.println("Edad correcta se asigna la nueva edad");
+            this.edad = n1;
+        }
+        return comprobarEdad;
+    }
+	
     public void Preguntar_Sueldo(int n1) {
 
         if (n1 == password) {
