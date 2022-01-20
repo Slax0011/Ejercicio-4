@@ -15,6 +15,9 @@ public class Empleado {
 
     }
 
+
+////////////// Errores del programa /////////
+
     public void Preguntar_Sueldo(int n1) {
 
         if (n1 == password) {
